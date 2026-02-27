@@ -2,6 +2,10 @@
 
 Aplicação front-end desenvolvida para monitoramento em tempo real da cotação do Dólar Americano (USD) em relação ao Real Brasileiro (BRL), utilizando a AwesomeAPI. O projeto prioriza o uso de padrões modernos de desenvolvimento, modularização de código e tratamento de estados assíncronos. [cite: 2026-02-24]
 
+## Github Pages
+
+Veja o projeto no Github Pages: https://srluizz.github.io/Cota-o-do-Dolar/
+
 ## Tecnologias e Ferramentas
 
 * **Vite**: Ferramenta de build e servidor de desenvolvimento otimizado. [cite: 2026-02-24]
