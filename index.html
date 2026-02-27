@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Cotação | Real-Time</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <main id="app">
+        <header>
+            <h1>📊 Monitor de Câmbio</h1>
+            <p>Dólar Americano em Tempo Real</p>
+        </header>
+
+        <section class="card">
+            <div class="card-header">
+                <span class="currency-pair">USD / BRL</span>
+                <span id="status-badge" class="badge">Sincronizado</span>
+            </div>
+            
+            <div class="card-body">
+                <h2 id="price">R$ 0,00</h2>
+                <p id="variation" class="neutral">0.00%</p>
+            </div>
+
+            <div class="card-footer">
+                <small>Última atualização: <span id="last-update">--:--:--</span></small>
+            </div>
+        </section>
+
+        <button id="refresh-btn">Atualizar Agora</button>
+    </main>
+
+    <script src="src/js/main.js" type="module"></script>
+</body>
+</html>
